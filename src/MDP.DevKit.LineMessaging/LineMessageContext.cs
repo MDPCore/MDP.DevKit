@@ -14,6 +14,8 @@ namespace MDP.DevKit.LineMessaging
 
         private readonly SignatureService _signatureService;
 
+        private readonly HookService _hookService;
+
         private readonly UserService _userService;
 
         private readonly ContentService _contentService;
@@ -26,6 +28,7 @@ namespace MDP.DevKit.LineMessaging
         (
             EventService eventService,
             SignatureService signatureService,
+            HookService hookService,
             UserService userService,
             ContentService contentService,
             MessageService messageService
@@ -35,6 +38,7 @@ namespace MDP.DevKit.LineMessaging
 
             if (eventService == null) throw new ArgumentException($"{nameof(eventService)}=null");
             if (signatureService == null) throw new ArgumentException($"{nameof(signatureService)}=null");
+            if (hookService == null) throw new ArgumentException($"{nameof(hookService)}=null");
             if (userService == null) throw new ArgumentException($"{nameof(userService)}=null");
             if (contentService == null) throw new ArgumentException($"{nameof(contentService)}=null");
             if (messageService == null) throw new ArgumentException($"{nameof(messageService)}=null");
@@ -44,6 +48,7 @@ namespace MDP.DevKit.LineMessaging
             // Default
             _eventService = eventService;
             _signatureService = signatureService;
+            _hookService = hookService;
             _userService = userService;
             _contentService = contentService;
             _messageService = messageService;
@@ -51,6 +56,8 @@ namespace MDP.DevKit.LineMessaging
 
 
         // Properties
+        public HookService HookService { get { return _hookService; } }
+
         public UserService UserService { get { return _userService; } }
 
         public ContentService ContentService { get { return _contentService; } }

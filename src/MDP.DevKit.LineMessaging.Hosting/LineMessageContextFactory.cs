@@ -26,6 +26,7 @@ namespace MDP.DevKit.LineMessaging.Hosting
             // Accesses
             serviceCollection.TryAddTransient<EventService, RestEventService>();
             serviceCollection.TryAddTransient<SignatureService>(serviceProvider => { return new RestSignatureService(setting.ChannelSecret); });
+            serviceCollection.TryAddTransient<HookService, RestHookService>();
             serviceCollection.TryAddTransient<UserService, RestUserService>();
             serviceCollection.TryAddTransient<ContentService, RestContentService>();
             serviceCollection.TryAddTransient<MessageService, RestMessageService>();

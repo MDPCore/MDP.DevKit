@@ -34,11 +34,27 @@ namespace MDP.DevKit.LineMessaging.Lab
         public async Task<ActionResult> Index()
         {
             // Run
-            await RunUserService();
-            await RunMessageService();
+            await RunHookService();
+            //await RunUserService();
+            //await RunMessageService();
 
             // Return
             return View();
+        }
+
+        public async Task RunHookService()
+        {
+            // Variables
+            
+            // Execute
+            var result = await _lineMessageContext.HookService.GetHookAsync();
+
+            // Display
+            Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(result, new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All)
+            }));
         }
 
         public async Task RunUserService()

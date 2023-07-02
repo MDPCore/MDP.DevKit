@@ -30,6 +30,26 @@ namespace MDP.DevKit.LineMessaging.Accesses
 
 
         // Methods
+        protected async Task GetAsync(string? requestUri = null, object? headers = null, object? query = null, object? content = null)
+        {
+            // PostAsync
+            var resultModel = await this.GetAsync<string>(requestUri);
+            if (resultModel == @"{}") return;
+
+            // Throw
+            throw new InvalidOperationException($"{nameof(resultModel)}={resultModel}");
+        }
+
+        protected async Task PostAsync(string? requestUri = null, object? headers = null, object? query = null, object? content = null)
+        {
+            // PostAsync
+            var resultModel = await this.PostAsync<string>(requestUri);
+            if (resultModel == @"{}") return;
+
+            // Throw
+            throw new InvalidOperationException($"{nameof(resultModel)}={resultModel}");
+        }
+
         protected async Task<TResultModel> GetAsync<TResultModel>(string? requestUri = null, object? headers = null, object? query = null, object? content = null, Func<JsonElement, TResultModel>? resultFactory = null)
             where TResultModel : class
         {

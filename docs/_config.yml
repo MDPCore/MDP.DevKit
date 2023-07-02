@@ -1,0 +1,11 @@
+
+# Site
+title: MDP.DevKit.LineMessaging
+
+# theme
+remote_theme: pmarsceill/just-the-docs
+aux_links:
+  "MDP.Net on GitHub":
+    - "//github.com/Clark159/MDP.DevKit.LineMessaging"
+search_enabled: false
+favicon_ico: "/Pages/favicon.ico"
