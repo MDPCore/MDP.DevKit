@@ -7,8 +7,7 @@ permalink: /
 
 # MDP.DevKit.LineMessaging
 
-MDP.DevKit.LineMessaging是開源的.NET套件，協助開發人員快速建立Line訊息對話的應用系統。
-
+MDP.DevKit.LineMessaging是.NET版本的開發套件，協助開發人員快速建立Line訊息對話的應用系統
 
 ## 說明文件
 
