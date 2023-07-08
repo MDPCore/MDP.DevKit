@@ -1,8 +1,10 @@
 
 
 @media (min-width: 66.5rem) {
-    .site-nav,.site-header,.site-footer,.site-title {
+    .site-nav,.site-header,.site-footer {
         width:100%;
-        overflow-wrap:anywhere;
+    }
+    .site-title {
+       font-size:1.125rem !important;
     }
 }
