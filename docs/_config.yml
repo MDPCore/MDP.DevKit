@@ -8,5 +8,5 @@ aux_links:
   "MDP.DevKit.LineMessaging":
     - "//github.com/Clark159/MDP.DevKit.LineMessaging"
 search_enabled: false
-color_scheme: dark
 favicon_ico: "/Pages/favicon.ico"
+color_scheme: dark
