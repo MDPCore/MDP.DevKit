@@ -13,7 +13,7 @@ nav_order: 1
 
 ## 範例源碼
 
-- [https://github.com/Clark159/MDP.DevKit.LineMessaging/demo/](https://github.com/Clark159/MDP.DevKit.LineMessaging/demo/)
+- [https://github.com/Clark159/MDP.DevKit.LineMessaging/demo/](https://github.com/Clark159/MDP.DevKit.LineMessaging/tree/master/demo/開發第一個發送Line訊息的.NET程式)
 
 
 ## 套件源碼
