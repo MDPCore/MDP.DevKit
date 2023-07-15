@@ -28,34 +28,34 @@ nav_order: 1
 
 ## 操作步驟
 
-1. 註冊並登入[Line Developers Console](https://developers.line.biz/console/)網頁。於首頁，點擊「Create New Provider」按鈕，依照頁面提示建立一個Provider。
+1.註冊並登入[Line Developers Console](https://developers.line.biz/console/)網頁。於首頁，點擊「Create New Provider」按鈕，依照頁面提示建立一個Provider。
 ![01.建立 Provider01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/01.建立 Provider01.png)
 ![01.建立 Provider02.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/01.建立 Provider02.png)
 
-2. 於Porvider頁面，點擊「Create a Messaging API channel」按鈕，依照頁面提示建立一個Messaging API Channel。
+2.於Porvider頁面，點擊「Create a Messaging API channel」按鈕，依照頁面提示建立一個Messaging API Channel。
 ![02.建立 Messaging API Channel01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/02.建立 Messaging API Channel01.png)
 ![02.建立 Messaging API Channel02.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/02.建立 Messaging API Channel02.png)
 
-3. 於Messaging API Channel頁面，進入Basic settings頁簽，取得「Channel Secret」、「Your User ID」；進入Messaging API頁簽，取得「QRCode」。
+3.於Messaging API Channel頁面，進入Basic settings頁簽，取得「Channel Secret」、「Your User ID」；進入Messaging API頁簽，取得「QRCode」。
 ![03.取得參數01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/03.取得參數01.png)
 ![03.取得參數02.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/03.取得參數02.png)
 
-4. 於Messaging API Channel頁面，進入Messaging API頁簽，點擊「Issue」按鈕，取得「Channel Access Token」。
+4.於Messaging API Channel頁面，進入Messaging API頁簽，點擊「Issue」按鈕，取得「Channel Access Token」。
 ![04.簽發Token01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/04.簽發Token01.png)
 ![04.簽發Token02.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/04.簽發Token02.png)
 
-5. 開啟手機上的Line APP,掃描先前取得的「QRCode」，來加入好友。
+5.開啟手機上的Line APP,掃描先前取得的「QRCode」，來加入好友。
 ![05.加入好友01.jpg](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/05.加入好友01.jpg)
 ![05.加入好友02.jpg](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/05.加入好友02.jpg)
 
-6. 開啟Visual Studio 2022，建立「空的ASP.NET Core」專案。
+6.開啟Visual Studio 2022，建立「空的ASP.NET Core」專案。
 ![06.建立專案01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/06.建立專案01.png)
 ![06.建立專案02.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/06.建立專案02.png)
 
-7. 於專案內，加入NuGet套件：「MDP.AspNetCore」、「MDP.DevKit.LineMessaging」。
+7.於專案內，加入NuGet套件：「MDP.AspNetCore」、「MDP.DevKit.LineMessaging」。
 ![07.加入套件01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/07.加入套件01.png)
 
-8. 於專案內，改寫Program.cs
+8.於專案內，改寫Program.cs
 
 ```csharp
 using MDP.AspNetCore;
@@ -81,7 +81,7 @@ namespace WebApplication1
 }
 ```
 
-9. 於專案內，改寫appsettings.json
+9.於專案內，改寫appsettings.json
 
 ```json
 {
@@ -103,7 +103,7 @@ namespace WebApplication1
 
 ```
 
-10. 於專案內，加入Controllers\HomeController.cs
+10.於專案內，加入Controllers\HomeController.cs
 
 ```csharp
 using MDP.DevKit.LineMessaging;
@@ -148,5 +148,5 @@ namespace WebApplication1
 }
 ```
 
-11. 執行專案，就可以在Line APP裡面，收到此.NET程式發送的文字訊息「Hello World」
+11.執行專案，就可以在Line APP裡面，收到此.NET程式發送的文字訊息「Hello World」
 ![11.執行結果01.jpg](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/11.執行結果01.jpg)
