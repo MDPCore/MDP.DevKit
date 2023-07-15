@@ -1,20 +1,36 @@
-#開發第一個Line訊息發送的.NET程式
-從零開始，開發一個Line訊息發送的.NET程式，其實步驟不多但是常常會遺忘順序。寫了一個快速開始，提醒以後的自己之外，也分享給有需要的開發人員。
+---
+layout: default
+title: 開發第一個發送Line訊息的.NET程式
+parent: 快速開始(QuickStart)
+nav_order: 1
+---
+
+
+#開發第一個發送Line訊息的.NET程式
+
+從零開始，開發第一個發送Line訊息的.NET程式，其實步驟不多但是常常會遺忘順序。寫了一個快速開始，提醒以後的自己之外，也分享給有需要的開發人員。
+
 
 ##範例源碼
-https://github.com/Clark159/MDP.DevKit.LineMessaging/demo/
+
+![https://github.com/Clark159/MDP.DevKit.LineMessaging/demo/](https://github.com/Clark159/MDP.DevKit.LineMessaging/demo/)
+
 
 ##套件源碼
-https://github.com/Clark159/MDP.DevKit.LineMessaging
+
+![https://github.com/Clark159/MDP.DevKit.LineMessaging](https://github.com/Clark159/MDP.DevKit.LineMessaging)
+
 
 ##說明文件
-https://clark159.github.io/MDP.DevKit.LineMessaging
 
-##開發步驟
+![https://clark159.github.io/MDP.DevKit.LineMessaging](https://clark159.github.io/MDP.DevKit.LineMessaging)
+
+
+##操作步驟
 
 1. 註冊並登入[Line Developers Console](https://developers.line.biz/console/)網頁。於首頁，點擊「Create New Provider」按鈕，依照頁面提示建立一個Provider。
-![01.建立 Provider01.png](https://raw.githubusercontent.com/Clark159/MDP.Net/master/docs/Pages/開發第一個Line訊息發送的.NET程式/01.建立 Provider01.png)
-![01.建立 Provider02.png](https://raw.githubusercontent.com/Clark159/MDP.Net/master/docs/Pages/開發第一個Line訊息發送的.NET程式/01.建立 Provider02.png)
+![01.建立 Provider01.png](https://raw.githubusercontent.com/Clark159/MDP.Net/master/docs/Pages/開發第一個發送Line訊息的.NET程式/01.建立 Provider01.png)
+![01.建立 Provider02.png](https://raw.githubusercontent.com/Clark159/MDP.Net/master/docs/Pages/開發第一個發送Line訊息的.NET程式/01.建立 Provider02.png)
 
 2. 於Porvider頁面，點擊「Create a Messaging API channel」按鈕，依照頁面提示建立一個Messaging API Channel。
 
