@@ -8,22 +8,17 @@ nav_order: 1
 
 # 開發第一個發送Line訊息的.NET程式
 
-從零開始，開發第一個發送Line訊息的.NET程式，其實步驟不多但是常常會遺忘順序。寫了一個快速開始，提醒以後的自己之外，也分享給有需要的開發人員。
+從零開始，開發一個發送Line訊息的.NET程式，其實步驟不多但是常常會遺忘順序。寫了一個快速開始，提醒以後的自己之外，也分享給有需要的開發人員。
 
 
 ## 範例源碼
 
-- [https://github.com/Clark159/MDP.DevKit.LineMessaging/demo/](https://github.com/Clark159/MDP.DevKit.LineMessaging/tree/master/demo/%E9%96%8B%E7%99%BC%E7%AC%AC%E4%B8%80%E5%80%8B%E7%99%BC%E9%80%81Line%E8%A8%8A%E6%81%AF%E7%9A%84.NET%E7%A8%8B%E5%BC%8F/WebApplication1)
+- [https://github.com/Clark159/MDP.DevKit.LineMessaging/demo](https://github.com/Clark159/MDP.DevKit.LineMessaging/tree/master/demo/開發第一個發送Line訊息的.NET程式/WebApplication1)
 
 
 ## 套件源碼
 
 - [https://github.com/Clark159/MDP.DevKit.LineMessaging](https://github.com/Clark159/MDP.DevKit.LineMessaging)
-
-
-## 說明文件
-
-- [https://clark159.github.io/MDP.DevKit.LineMessaging](https://clark159.github.io/MDP.DevKit.LineMessaging)
 
 
 ## 操作步驟
