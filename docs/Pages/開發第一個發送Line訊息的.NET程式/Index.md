@@ -23,7 +23,7 @@ nav_order: 1
 
 ## 操作步驟
 
-1.註冊並登入[Line Developers Console](https://developers.line.biz/console/)網頁。於首頁，點擊「Create New Provider」按鈕，依照頁面提示建立一個Provider。
+1.註冊並登入[Line Developers Console](https://developers.line.biz/console/)。於首頁，點擊「Create New Provider」按鈕，依照頁面提示建立一個Provider。
 ![01.建立 Provider01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/01.建立 Provider01.png)
 ![01.建立 Provider02.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/01.建立 Provider02.png)
 
@@ -143,5 +143,5 @@ namespace WebApplication1
 }
 ```
 
-11.執行專案，就可以在Line APP裡面，收到此.NET程式發送的文字訊息「Hello World」
+11.執行專案，就可以在Line APP裡面，收到此.NET程式發送的文字訊息「Hello World」。
 ![11.執行結果01.jpg](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/11.執行結果01.jpg)
