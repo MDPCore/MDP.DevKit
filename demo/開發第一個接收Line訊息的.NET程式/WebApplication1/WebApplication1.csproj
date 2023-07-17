@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="MDP.AspNetCore" Version="6.1.5" />
     <PackageReference Include="MDP.DevKit.LineMessaging" Version="6.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
