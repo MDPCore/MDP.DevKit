@@ -31,10 +31,12 @@ nav_order: 2
 
 3.於專案內，加入Controllers\LineController.cs
 
-4.執行專案，並且複製取得「程式執行網址」。
+4.執行專案，複製取得「程式執行網址」。(**後續步驟，請保持專案執行**)
 
-5.
+5.登入[Line Developers Console](https://developers.line.biz/console/)。於Messaging API Channel頁面，進入Messaging API頁簽，編輯「Webhook URL」、並開啟「Use webhook」。(**Webhook URL=「程式執行網址」+「/Hook-Line」**)
 
-5. 註冊並登入Line Developers Console。於Messaging API Channel頁面，進入Messaging API頁簽，開啟WebHook、並且設定WebHook URL(先前取得的「程式執行網址」+「/Hook-Line」)
-6. 註冊並登入Line Official Account Manager。於首頁的XXXXX/自動回復頁面內，找到關閉自動回復
-7. 到LienAPP裡面發送訊息
+6.登入[Line Official Account Manager](https://manager.line.biz/)。進入首頁\自動回應訊息\自動回應訊息的頁面，關閉「Default」回應訊息。
+
+7.開啟手機上的Line APP，發送文字訊息「吃飽沒?」。
+
+8.回到步驟4專案執行的Console視窗內，可以看到此.NET程式接收到，由Line APP所發送的文字訊息「吃飽沒?」。

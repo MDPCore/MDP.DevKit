@@ -39,7 +39,7 @@ nav_order: 1
 ![04.簽發Token01.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/04.簽發Token01.png)
 ![04.簽發Token02.png](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/04.簽發Token02.png)
 
-5.開啟手機上的Line APP,掃描先前取得的「QRCode」，來加入好友。
+5.開啟手機上的Line APP，掃描先前取得的「QRCode」，來加入好友。
 ![05.加入好友01.jpg](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/05.加入好友01.jpg)
 ![05.加入好友02.jpg](https://raw.githubusercontent.com/Clark159/MDP.DevKit.LineMessaging/master/docs/Pages/開發第一個發送Line訊息的.NET程式/05.加入好友02.jpg)
 
