@@ -1,5 +1,5 @@
 # MDP.DevKit.LineMessaging
-MDP.DevKit.LineMessaging是.NET版本的開發套件，協助開發人員快速建立Line訊息對話的應用系統。
+MDP.DevKit.LineMessaging是.NET版本的開發套件，協助開發人員快速建立Line訊息整合的應用系統。
 
 
 ## 說明文件
@@ -9,9 +9,9 @@ MDP.DevKit.LineMessaging是.NET版本的開發套件，協助開發人員快速�
 
 ## 快速開始
 
-- [開發第一個發送Line訊息的.NET程式](https://clark159.github.io/MDP.DevKit.LineMessaging/Pages/開發第一個發送Line訊息的.NET程式/Index.html)
+- [開發一個發送Line訊息的.NET程式](https://clark159.github.io/MDP.DevKit.LineMessaging/Pages/開發一個發送Line訊息的.NET程式/Index.html)
 
-- [開發第一個接收Line訊息的.NET程式](https://clark159.github.io/MDP.DevKit.LineMessaging/Pages/開發第一個接收Line訊息的.NET程式/Index.html)
+- [開發一個接收Line訊息的.NET程式](https://clark159.github.io/MDP.DevKit.LineMessaging/Pages/開發一個接收Line訊息的.NET程式/Index.html)
 
 
 ## 版本更新
