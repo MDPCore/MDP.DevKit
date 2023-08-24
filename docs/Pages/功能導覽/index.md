@@ -3,7 +3,7 @@ layout: default
 title: 功能導覽
 parent: Line訊息整合
 nav_order: 1
-x_permalink: /
+permalink: /
 ---
 
 
