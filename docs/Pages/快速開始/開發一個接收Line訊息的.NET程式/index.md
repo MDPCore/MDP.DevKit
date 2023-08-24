@@ -1,9 +1,12 @@
 ---
 layout: default
 title: 開發一個接收Line訊息的.NET程式
-parent: 快速開始(QuickStart)
+parent: 快速開始
+grand_parent: Line訊息整合
 nav_order: 2
+has_children: false
 ---
+
 
 
 # 開發一個**接收**Line訊息的.NET程式
