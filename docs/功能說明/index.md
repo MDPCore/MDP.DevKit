@@ -1,3 +1,12 @@
+---
+layout: default
+title: 功能說明
+parent: Line訊息服務
+nav_order: 1
+permalink: /
+---
+
+
 # MDP.DevKit.LineMessaging
 
 MDP.DevKit.LineMessaging是開源的.NET開發套件，協助開發人員快速建立整合Line訊息服務的應用系統。

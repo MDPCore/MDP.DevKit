@@ -2,7 +2,7 @@
 layout: default
 title: 開發一個發送Line訊息的.NET程式
 parent: 快速開始
-grand_parent: Line訊息整合
+grand_parent: Line訊息服務
 nav_order: 1
 has_children: false
 ---

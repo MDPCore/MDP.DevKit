@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Event類型
-parent: Line訊息整合
+parent: Line訊息服務
 nav_order: 6
 has_children: true
 ---

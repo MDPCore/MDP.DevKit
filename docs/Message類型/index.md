@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Message類型
-parent: Line訊息整合
+parent: Line訊息服務
 nav_order: 4
 has_children: true
 ---
