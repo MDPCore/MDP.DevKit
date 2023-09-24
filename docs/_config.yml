@@ -1,12 +1,12 @@
 
 # Site
-title: MDP.Net
+title: MDP.DevKit.LineMessaging
 
 # Theme
 remote_theme: pmarsceill/just-the-docs
 aux_links:
   "Source Code on GitHub":
-    - "//github.com/Clark159/MDP.Net"
+    - "//github.com/Clark159/MDP.DevKit.LineMessaging"
 color_scheme: dark
 search_enabled: false
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Message發送
-parent: Line訊息服務
+parent: Line訊息服務X
 nav_order: 3
 has_children: true
 ---
