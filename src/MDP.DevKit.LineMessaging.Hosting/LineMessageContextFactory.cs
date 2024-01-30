@@ -4,14 +4,18 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System;
 using System.Collections.Generic;
+using MDP.Registration;
 
 namespace MDP.DevKit.LineMessaging.Hosting
 {
-    [MDP.Registration.Factory<IServiceCollection, LineMessageContextSetting>("MDP.DevKit.LineMessaging", "LineMessageContextFactory")]
-    public class LineMessageContextFactory
+    public class LineMessageContextFactory: ServiceFactory<IServiceCollection, LineMessageContextFactory.Setting>
     {
+        // Constructors
+        public LineMessageContextFactory() : base("MDP.DevKit.LineMessaging", "LineMessageContextFactory") { }
+
+
         // Methods
-        public void ConfigureService(IServiceCollection serviceCollection, LineMessageContextSetting setting)
+        public override void ConfigureService(IServiceCollection serviceCollection, Setting setting)
         {
             #region Contracts
 
@@ -41,7 +45,7 @@ namespace MDP.DevKit.LineMessaging.Hosting
 
 
         // Class
-        public class LineMessageContextSetting
+        public class Setting
         {
             // Properties
             public string ChannelSecret { get; set; }

@@ -3,10 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <LangVersion>11.0</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MDP.Registration" Version="6.1.5" />
+    <PackageReference Include="MDP.Registration" Version="6.1.13" />
     <PackageReference Include="MDP.Network.Rest" Version="6.1.5" />
   </ItemGroup>
 

@@ -1,15 +1,19 @@
 ﻿using MDP.Network.Rest;
+using MDP.Registration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 
 namespace MDP.DevKit.LineMessaging.Accesses
 {
-    [MDP.Registration.Factory<IServiceCollection, RestClientFactorySetting>("MDP.DevKit.LineMessaging", "RestClientFactory")]
-    public class RestClientFactoryFactory
+    public class RestClientFactoryFactory : ServiceFactory<IServiceCollection, RestClientFactoryFactory.Setting>
     {
+        // Constructors
+        public RestClientFactoryFactory() : base("MDP.DevKit.LineMessaging", "RestClientFactory") { }
+
+
         // Methods
-        public void ConfigureService(IServiceCollection serviceCollection, RestClientFactorySetting setting)
+        public override void ConfigureService(IServiceCollection serviceCollection, Setting setting)
         {
             #region Contracts
 
@@ -24,10 +28,10 @@ namespace MDP.DevKit.LineMessaging.Accesses
 
 
         // Class
-        public class RestClientFactorySetting
+        public class Setting
         {
             // Properties
-            public Dictionary<string, RestClientEndpoint>? Endpoints { get; set; } = null;
+            public Dictionary<string, RestClientEndpoint> Endpoints { get; set; } = null;
         }
     }
 }
