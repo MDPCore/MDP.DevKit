@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "MDP.DevKit.LineNotify.Lab": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "https://notify-bot.line.me/oauth/authorize?response_type=code&scope=notify&response_mode=form_post&client_id=swTiI2bwOil2FcdtaD5Pli&redirect_uri=https://vsj84lrz-7146.asse.devtunnels.ms/Hook-LineNotify&state=12345",
+      "applicationUrl": "https://localhost:7146",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    } 
+  }
+}
